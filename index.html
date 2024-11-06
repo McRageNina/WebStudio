@@ -7,61 +7,63 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <a href="">WebStudio</a>
-      <nav>
-        <ul>
-          <li>
-            <ul>
-              <li><a href="index.html">Студія</a></li>
-              <li><a href="port.html">Портфоліо</a></li>
-              <li><a href="#">Контакти</a></li>
+    <header class="header">
+      <a class="logo" href="./index.html">WebStudio</a>
+      <nav class="navigation">
+        <ul class="header-list">
+          <li class="header-list-item">
+            <ul class="pages-list">
+              <li class="pages-item"><a class="pages-item-link" href="index.html">Студія</a></li>
+              <li class="pages-item"><a class="pages-item-link" href="port.html">Портфоліо</a></li>
+              <li class="pages-item"><a class="pages-item-link" href="#">Контакти</a></li>
             </ul>
           </li>
-          <li>
-            <ul>
-              <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="header-list-item">
+            <ul class="contacts-list">
+              <li class="contacts-list-item">
+                <a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
-              <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li  class="contacts-list-item">
+                <a class="contacts-list-link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
             </ul>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <div>
-          <h1>Ефективні рішення для вашого бізнесу</h1>
-          <button>Замовити послугу</button>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero-button">Замовити послугу</button>
         </div>
       </section>
-      <section>
-        <div>
-          <ul>
-            <li>
-              <h2>УВАГА ДО ДЕТАЛЕЙ</h2>
-              <p>
+      <section class="utilities">
+        <div class="container">
+          <ul class="utilities-list">
+            <li class="utilities-list-item">
+              <h2 class="utilities-list-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+              <p class="utilities-list-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
-              <h2>ПУНКТУАЛЬНІСТЬ</h2>
-              <p>
+            <li class="utilities-list-item">
+              <h2 class="utilities-list-title">ПУНКТУАЛЬНІСТЬ</h2>
+              <p class="utilities-list-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
-              <h2>ПЛАНУВАННЯ</h2>
-              <p>
+            <li class="utilities-list-item">
+              <h2 class="utilities-list-title">ПЛАНУВАННЯ</h2>
+              <p class="utilities-list-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
-              <h2>СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-              <p>
+            <li class="utilities-list-item">
+              <h2 class="utilities-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+              <p class="utilities-list-text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -69,49 +71,57 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Чим ми займаємося</h2>
-          <img src="./img/img-one.webp" alt="фото1" />
-          <img src="./img/img-two.webp" alt="фото2" />
-          <img src="./img/img-three.webp" alt="фото3" />
+      <section class="work">
+        <div class="container">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <img class="work-img" src="./img/img-one.webp" alt="фото1" />
+          <img class="work-img" src="./img/img-two.webp" alt="фото2" />
+          <img class="work-img" src="./img/img-three.webp" alt="фото3" />
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Наша команда</h2>
-          <ul>
-            <li>
-              <img src="./img/people-one.webp" alt="співробітник1" />
-              <h3>Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+      <section class="team">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="employee-cards-list">
+            <li class="employee-card">
+              <img class="employee-card-img" src="./img/people-one.webp" alt="співробітник1" />
+              <h3 class="employee-name">Ігор Дем'яненко</h3>
+              <p class="employee-position">Product Designer</p>
             </li>
-            <li>
-              <img src="./img/people-two.webp" alt="співробітник2" />
-              <h3>Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+            <li class="employee-card">
+              <img class="employee-card-img" src="./img/people-two.webp" alt="співробітник2" />
+              <h3 class="employee-name">Ольга Рєпіна</h3>
+              <p class="employee-position">Frontend Developer</p>
             </li>
-            <li>
-              <img src="./img/people-three.webp" alt="співробітник3" />
-              <h3>Микола Тарасов</h3>
-              <p>Marketing</p>
+            <li class="employee-card">
+              <img class="employee-card-img" src="./img/people-three.webp" alt="співробітник3" />
+              <h3 class="employee-name">Микола Тарасов</h3>
+              <p class="employee-position">Marketing</p>
             </li>
-            <li>
-              <img src="./img/people-four.webp" alt="співробітник4" />
-              <h3>Михайло Єрмаков</h3>
-              <p>UI Designer</p>
+            <li class="employee-card">
+              <img class="employee-card-img" src="./img/people-four.webp" alt="співробітник4" />
+              <h3 class="employee-name">Михайло Єрмаков</h3>
+              <p class="employee-position">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer>
-      <a href="">WebStudio</a>
-      <ul>
-        <li><a href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo" href="./index.html">WebStudio</a>
+        <ul class="footer-adress-list">
+          <li class="footer-adress-item">
+            <a class="footer-adress-adress" href="">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li class="footer-adress-item">
+            <a class="footer-adress-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="footer-adress-item">
+            <a class="footer-adress-text" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
