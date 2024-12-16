@@ -1,3 +1,5 @@
+/* font-family: "Roboto", serif; */
+/* font-family: "Raleway", serif; */
 :root{
     --title-text-color: #212121;
     --hero-text-color: #ffffff; 
@@ -12,6 +14,9 @@
     --teams-background-color: #F5F4FA;
     --footer-contacts-color: rgba(255, 255, 255, 0.6);
 
+}
+body{
+    font-family: "Roboto", serif;
 }
 /* .container{
     width: 1200px;
