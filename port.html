@@ -3,113 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="./index.html">WebStudio</a>
-      <nav class="navigation">
-        <ul class="header-list">
-          <li class="header-list-item">
-            <ul class="pages-list">
-              <li class="pages-item"><a class="pages-item-link" href="index.html">Студія</a></li>
-              <li class="pages-item"><a class="pages-item-link" href="port.html">Портфоліо</a></li>
-              <li class="pages-item"><a class="pages-item-link" href="#">Контакти</a></li>
-            </ul>
-          </li>
-          <li class="header-list-item">
-            <ul class="contacts-list">
-              <li class="contacts-list-item">
-                <a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li  class="contacts-list-item">
-                <a class="contacts-list-link" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+      <div class="container header-container">
+        <a class="logo" href="./index.html">WebStudio</a>
+        <nav class="navigation">
+          <ul class="header-list">
+            <li class="header-list-item">
+              <ul class="pages-list">
+                <li class="pages-item"><a class="pages-item-link" href="index.html">Студія</a></li>
+                <li class="pages-item"><a class="pages-item-link" href="port.html">Портфоліо</a></li>
+                <li class="pages-item"><a class="pages-item-link" href="#">Контакти</a></li>
+              </ul>
+            </li>
+            <li class="header-list-item">
+              <ul class="contacts-list">
+                <li class="contacts-list-item">
+                  <a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li  class="contacts-list-item">
+                  <a class="contacts-list-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
-      <section class="project-cards-nav">
-        <div class="container">
-          <ul class="project-cards-nav-list">
-            <li class="project-cards-nav-item">
-              <a class="project-cards-nav-link" href="">Усі</a>
-            </li>
-            <li class="project-cards-nav-item">
-              <a class="project-cards-nav-link" href="">Веб-сайти</a>
-            </li>
-            <li class="project-cards-nav-item">
-              <a class="project-cards-nav-link" href="">Додатки</a>
-            </li>
-            <li class="project-cards-nav-item">
-              <a class="project-cards-nav-link" href="">Дизайн</a>
-            </li>
-            <li class="project-cards-nav-item">
-              <a class="project-cards-nav-link" href="">Маркетинг</a>
-            </li>
-          </ul>
+      <section class="projects">
+        <div class="project-cards-nav">
+          <div class="container">
+            <ul class="project-cards-nav-list">
+              <li class="project-cards-nav-item">
+                <a class="project-cards-nav-link" href="">Усі</a>
+              </li>
+              <li class="project-cards-nav-item">
+                <a class="project-cards-nav-link" href="">Веб-сайти</a>
+              </li>
+              <li class="project-cards-nav-item">
+                <a class="project-cards-nav-link" href="">Додатки</a>
+              </li>
+              <li class="project-cards-nav-item">
+                <a class="project-cards-nav-link" href="">Дизайн</a>
+              </li>
+              <li class="project-cards-nav-item">
+                <a class="project-cards-nav-link" href="">Маркетинг</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
-      <section class="project-cards">
-        <div class="container">
-          <ul class="project-cards-list">
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/laptop.png" alt="картинка1" />
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/basketball.png" alt="картинка2" />
-              <h3 class="project-card-name">Постер New Orlean vs Golden Star</h3>
-              <p class="project-card-type">Дизайн</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/seafood.png" alt="картинка3" />
-              <h3 class="project-card-name">Ресторан Seafood</h3>
-              <p class="project-card-type">Додаток</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/prime.png" alt="картинка4" />
-              <h3 class="project-card-name">Проєкт Prime</h3>
-              <p class="project-card-type">Маркетинг</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/boxes.png" alt="картинка5" />
-              <h3 class="project-card-name">Проєкт Boxes</h3>
-              <p class="project-card-type">Додаток</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/borders.png" alt="картинка6" />
-              <h3 class="project-card-name">Inspiration has no Borders</h3>
-              <p class="project-card-type">Веб-сайт</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/limited-edition.png" alt="картинка7" />
-              <h3 class="project-card-name">Видання Limited Edition</h3>
-              <p class="project-card-type">Дизайн</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/lab.png" alt="картинка8" />
-              <h3 class="project-card-name">Проєкт LAB</h3>
-              <p class="project-card-type">Маркетинг</p>
-            </li>
-            <li class="project-cards-item">
-              <img class="project-card-img" src="./img/growing-business.png" alt="картинка9" />
-              <h3 class="project-card-name">Growing Business</h3>
-              <p class="project-card-type">Додаток</p>
-            </li>
-          </ul>
+        <div class="project-cards">
+          <div class="container">
+            <ul class="project-cards-list">
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/laptop.png" alt="картинка1" />
+                <h3>Технокряк</h3>
+                <p>Веб-сайт</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/basketball.png" alt="картинка2" />
+                <h3 class="project-card-name">Постер New Orlean vs Golden Star</h3>
+                <p class="project-card-type">Дизайн</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/seafood.png" alt="картинка3" />
+                <h3 class="project-card-name">Ресторан Seafood</h3>
+                <p class="project-card-type">Додаток</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/prime.png" alt="картинка4" />
+                <h3 class="project-card-name">Проєкт Prime</h3>
+                <p class="project-card-type">Маркетинг</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/boxes.png" alt="картинка5" />
+                <h3 class="project-card-name">Проєкт Boxes</h3>
+                <p class="project-card-type">Додаток</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/borders.png" alt="картинка6" />
+                <h3 class="project-card-name">Inspiration has no Borders</h3>
+                <p class="project-card-type">Веб-сайт</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/limited-edition.png" alt="картинка7" />
+                <h3 class="project-card-name">Видання Limited Edition</h3>
+                <p class="project-card-type">Дизайн</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/lab.png" alt="картинка8" />
+                <h3 class="project-card-name">Проєкт LAB</h3>
+                <p class="project-card-type">Маркетинг</p>
+              </li>
+              <li class="project-cards-item">
+                <img class="project-card-img" src="./img/growing-business.png" alt="картинка9" />
+                <h3 class="project-card-name">Growing Business</h3>
+                <p class="project-card-type">Додаток</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a class="footer-logo" href="./index.html">WebStudio</a>
         <address class="address">
           <ul class="footer-adress-list">

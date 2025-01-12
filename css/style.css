@@ -89,3 +89,21 @@ body{
     padding-top: 126px;
     padding-bottom: 126px;
 }
+
+/* Портфоліо */
+.projects{
+    padding-top: 94px;
+    padding-top: 94px;
+}
+.project-cards-nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+.project-cards-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
