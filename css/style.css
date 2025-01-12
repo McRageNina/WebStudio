@@ -29,6 +29,27 @@ body{
 .header-container{
     margin-bottom: 32px;
     margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 344px;
+}
+.pages-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.contacts-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 .hero{
     padding-top: 200px;
@@ -38,12 +59,28 @@ body{
     margin-bottom: 94px;
     margin-top: 94px;
 }
+.utilities-list{
+    display: flex;
+    justify-content: space-between;
+}
 .work{
-padding-bottom: 94px;
+    padding-bottom: 94px;
+}
+.work-list{
+    display: flex;
+    justify-content: space-between;
 }
 .team{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.employee-cards-list{
+    display: flex;
+    justify-content: space-between;
+}
+.employee-card-img{
+    width: 270px;
+    height: 260px;
 }
 .footer-logo{
     font-family: "Raleway", serif;
