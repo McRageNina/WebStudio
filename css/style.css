@@ -18,14 +18,37 @@
 body{
     font-family: "Roboto", serif;
 }
-/* .container{
+.container{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15;
-} */
+}
 .logo{
     font-family: "Raleway", serif;
 }
+.header-container{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.utilities{
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+.work{
+padding-bottom: 94px;
+}
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .footer-logo{
     font-family: "Raleway", serif;
+}
+.footer-container{
+    padding-top: 126px;
+    padding-bottom: 126px;
 }
