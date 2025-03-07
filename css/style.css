@@ -76,7 +76,7 @@ body{
 .hero{
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/Img.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/hero-back.webp);
 }
 .hero-title{
     font-weight: 900;
@@ -145,6 +145,21 @@ body{
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+.work-box{
+    position: relative;
+}
+.work-position{
+    font-size: 14px;
+    color: var(--hero-text-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #2f303a91;
+    text-align: center;
 }
 .team{
     padding-top: 94px;
